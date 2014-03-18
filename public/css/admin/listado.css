@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+#content-area{height:580px;overflow-y:auto}
+
+
+#listado{ width:100%; background-color:#CCC; color:#444}
+#listado .titulo{ background-image:url('../../img/admin/bg-titulo-tarea.jpg'); height:20px;}
+
+
+#listado .fila1{ background-color:#E6E6FE;padding-top:3px}
+#listado .fila1:hover{ background-color: #F2F583}
+#listado .fila1 td{padding-top:2px}
+#listado .fila2{background-color:#fff;padding-top:3px}
+#listado .fila2:hover{background-color:#F2F583}
+#listado .fila2 td{padding-top:2px}
+#listado td{ padding-left:2px; cursor:pointer}
+#listado th{ padding-left:2px; cursor:pointer}
+
+#listado th.headerSortUp a{ 
+   background-position:right 5px; padding-right:10px
+}
+#listado th.headerSortDown a{ 
+	background-position:right -5px; padding-right:10px
+} 
+
+#listadoul{ 
+	list-style:none;
+	-webkit-padding-start: 0px;
+}
+
+#listadoul li{ overflow:hidden}
+#listadoul .fila1{ background-color:#E6E6FE;border-bottom:1px solid #CCC; border-left:1px solid #CCC;border-right:1px solid #CCC}
+#listadoul .fila1:hover{ background-color: #F2F583}
+#listadoul .fila2{background-color:#fff; border-bottom:1px solid #CCC; border-left:1px solid #CCC;border-right:1px solid #CCC}
+#listadoul .fila2:hover{background-color:#F2F583}
+#listadoul .options{border-left:1px solid #CCC; float:right; width:140px; padding:1px 0; text-align:center}
+#listadoul .data{float:left;width:200px; padding-left:2px; border-left : 1px; text-align:left}
+#listadoul .move{ cursor:move}
+
+
