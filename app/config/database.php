@@ -54,9 +54,9 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'www.creatudominio.net',
-			'database'  => 'creat777_data',
-			'username'  => 'creat777_lacucha',
+			'host'      => 'localhost',
+			'database'  => 'admin_data',
+			'username'  => 'root',
 			'password'  => 'makeumo25',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
