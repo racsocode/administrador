@@ -8,7 +8,7 @@
     <div id="wrapper">
       <!-- Sidebar -->
       <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-          @include('layouts/admin/navigation')
+        @include('layouts/admin/navigation', array('some'=>'data'))
       </nav>
 
       <div id="page-wrapper">
